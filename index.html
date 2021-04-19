@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Game Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div>
+        <h1>My JS Game</h1>
+        <div id="reset-container">
+            <button id="reset-button">RESET</button><br>
+            NUMBER OF RESETS: <span id="num-resets">0</span>
+            <section>
+                <div>
+                    Choose a Color for this area!
+                <button id="red-button">
+                    Red
+                </button>
+                <button id="blue-button">
+                    Blue
+                </button>
+                <button id="gold-button">
+                    Gold
+                </button>
+                </div>
+            </section>
+        </div>
+        <div class="clear">
+            <div class="left" class "gray">
+                <h2>
+                    <span id="name1">Team 1</span>
+                </h2>
+                <div class="goals">
+                    SHOTS TAKEN: <span id="teamone-numshots">0</span><br>
+                    GOALS: <span id="teamone-numgoals">0</span>
+                </div>
+                <div>
+                    <button id="teamone-shoot-button">SHOOT</button>
+                </div>
+            </div>
+            <div class="picture">
+            <img src = 'https://tinyurl.com/y2c5jo64' alt='Cool pic of Jordan'>
+            </div>
+            <div class="right">
+                <h2>
+                    <span id="name2">Team 2</span>
+                </h2>
+                <div class="goals">
+                    SHOTS TAKEN: <span id="teamtwo-numshots">0</span><br>
+                    GOALS: <span id="teamtwo-numgoals">0</span>
+                </div>
+                <div>
+                <button id="teamtwo-shoot-button">SHOOT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<footer>
+    <div>
+        <audio id="audio" controls src="https://www.pacdv.com/sounds/applause-sounds/app-29.wav">
+        Your browser does not support the
+        <code>wav</code> element.
+        </audio-->
+    </div>
+</footer>
+    <!-- Link your JS file using the script tag -->
+  <script src="./assets/javascript/game.js"></script>
+</body>
+</html> 

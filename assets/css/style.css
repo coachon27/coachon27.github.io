@@ -1,0 +1,44 @@
+.hide {
+    display: none;
+}
+.left {
+    /*background-color: gold;*/
+    width: 200px;
+    text-align: center;
+    /*float: left;*/
+}
+.right {
+    /*background-color: blue;*/
+    width: 200px;
+    text-align: center;
+    /*float: right;*/
+}
+.picture {
+    margin-top: 20px;
+}
+.clear {
+    /*clear: both;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    background-color: rgb(70, 117, 70);
+    text-align: center;
+}
+#reset-container {
+    text-align: center;
+}
+.red {
+    background: red;
+}
+.blue {
+    background: rgb(67, 111, 255);
+}
+.gold {
+    background: gold;
+}
+.gray {
+    background: gray;
+}
